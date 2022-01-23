@@ -2,7 +2,12 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-116-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-# rustlings 🦀❤️
+# rustlings-solution 🦀
+
+This repo contains my solution of the [rustlings](https://github.com/rust-lang/rustlings).
+If you need explanation for each exercises, check out my [Rustlings post](https://lazyren.github.io/studylog/rustlings.html).
+
+## rustlings 🦀❤️
 
 Greetings and welcome to `rustlings`. This project contains small exercises to get you used to reading and writing Rust code. This includes reading and responding to compiler messages!
 
@@ -10,14 +15,14 @@ _...looking for the old, web-based version of Rustlings? Try [here](https://gith
 
 Alternatively, for a first-time Rust learner, there are several other resources:
 
-- [The Book](https://doc.rust-lang.org/book/index.html) - The most comprehensive resource for learning Rust, but a bit theoretical sometimes. You will be using this along with Rustlings!
-- [Rust By Example](https://doc.rust-lang.org/rust-by-example/index.html) - Learn Rust by solving little exercises! It's almost like `rustlings`, but online
+* [The Book](https://doc.rust-lang.org/book/index.html) - The most comprehensive resource for learning Rust, but a bit theoretical sometimes. You will be using this along with Rustlings!
+* [Rust By Example](https://doc.rust-lang.org/rust-by-example/index.html) - Learn Rust by solving little exercises! It's almost like `rustlings`, but online
 
 ## Getting Started
 
 _Note: If you're on MacOS, make sure you've installed Xcode and its developer tools by typing `xcode-select --install`._
 
-You will need to have Rust installed. You can get it by visiting https://rustup.rs. This'll also install Cargo, Rust's package/project manager.
+You will need to have Rust installed. You can get it by visiting <https://rustup.rs>. This'll also install Cargo, Rust's package/project manager.
 
 ## MacOS/Linux
 
@@ -151,17 +156,17 @@ Now you should be done!
 
 Rustlings isn't done; there are a couple of sections that are very experimental and don't have proper documentation. These include:
 
-- Errors (`exercises/errors/`)
-- Option (`exercises/option/`)
-- Result (`exercises/result/`)
-- Move Semantics (could still be improved, `exercises/move_semantics/`)
+* Errors (`exercises/errors/`)
+* Option (`exercises/option/`)
+* Result (`exercises/result/`)
+* Move Semantics (could still be improved, `exercises/move_semantics/`)
 
 Additionally, we could use exercises on a couple of topics:
 
-- Structs
-- Better ownership stuff
-- `impl`
-- ??? probably more
+* Structs
+* Better ownership stuff
+* `impl`
+* ??? probably more
 
 If you are interested in improving or adding new ones, please feel free to contribute! Read on for more information :)
 
