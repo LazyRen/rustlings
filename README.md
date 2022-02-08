@@ -6,6 +6,7 @@
 
 This repo contains my solution of the [rustlings](https://github.com/rust-lang/rustlings).
 If you need explanation for each exercises, check out my [Rustlings post](https://lazyren.github.io/studylog/rustlings.html).
+Each post contains solution + explanation and basic knowledge that you should know to solve the problem.
 
 ## rustlings 🦀❤️
 
