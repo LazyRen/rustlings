@@ -3,6 +3,8 @@
 pub fn factorial(num: u64) -> u64 {
     // https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.fold
     (1..=num).fold(1, |sum, v| sum * v)
+    // https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.reduce
+    // (1..=num).reduce(|sum, v| sum * v).unwrap()
 }
 
 #[cfg(test)]
