@@ -24,8 +24,14 @@ fn main() {
             job_status.jobs_completed += 1;
         }
     });
-    while status.lock().unwrap().jobs_completed < 10 {
-        println!("waiting... ");
+    loop {
+        {
+            if status.lock().unwrap().jobs_completed < 10 {
+                println!("waiting...");
+            } else {
+                break;
+            }
+        }
         thread::sleep(Duration::from_millis(500));
     }
 }
